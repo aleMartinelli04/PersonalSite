@@ -1,0 +1,92 @@
+img {
+    max-width: 200px;
+    min-width: 100px;
+    width: 45vw;
+}
+
+.menu {
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+    text-align: center;
+    height: 2.5vh;
+    text-decoration: none;
+    color: #212529;
+}
+
+.menu > h6 {
+    margin: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 2.5vh;
+}
+
+.menu > h6 > a {
+    margin: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 2.5vh;
+    color: #212529;
+    text-decoration: none;
+}
+
+.menu > h6 > a:hover {
+    color: #ff8427;
+}
+
+.section-menu {
+    width: 60%;
+    position: fixed;
+    top: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.page-signature {
+    width: 60%;
+    margin: auto;
+    background-color: #ff8427;
+    height: 4px;
+    border-radius: 100px;
+}
+
+
+.icon {
+    text-decoration: none;
+}
+
+.icon:hover > i {
+    color: #ff8427;
+}
+
+h6 > a {
+    font-size: 3vh;
+}
+
+h6 > a > i {
+    font-size: 4vh;
+    margin-top: 1vh;
+}
+
+.contact-me-title {
+    font-size: 5vh;
+}
+
+
+.page-container {
+    margin-top: 20vh;
+}
+
+.page-content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.page-content > p {
+    font-size: 3vh;
+}
+
+.page-content > h4 {
+    font-size: 4vh;
+}
