@@ -128,3 +128,43 @@ h6 > a > i {
 .page-content > h4 {
     font-size: 4vh;
 }
+
+.page-content > h6 {
+    font-size: 2.5vh;
+}
+
+
+.project {
+    width: 100%;
+}
+
+.project > div > img {
+    width: 15vh;
+    margin-right: 5%;
+    margin-left: 10%;
+    float: left;
+    max-width: 175px;
+}
+
+.project-text {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 2.5vh;
+}
+
+.project-text > a > h4 {
+    font-size: 3vh;
+}
+
+.hover-color {
+    font-size: 2.5vh;
+}
+
+.hover-color:hover {
+    color: #ff8427;
+}
+
+.orange {}
+.orange:hover {
+    color: #ff8427;
+}
