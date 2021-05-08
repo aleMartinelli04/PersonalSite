@@ -164,7 +164,31 @@ h6 > a > i {
     color: #ff8427;
 }
 
-.orange {}
+.orange {
+}
+
 .orange:hover {
     color: #ff8427;
+}
+
+
+.songs-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+td {
+    font-size: calc((1.5vw*1.5 + 1.5vh*2)/2);
+}
+
+td > img {
+    width: 30vh;
+    min-width: 100px;
+    max-width: 120px;
+}
+
+audio {
+    margin-left: 5%;
 }
