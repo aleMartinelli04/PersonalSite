@@ -174,9 +174,7 @@ h6 > a > i {
 
 .songs-container {
     width: 80%;
-    margin-left: 10%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin: 5vh auto;
 }
 
 td {
