@@ -174,7 +174,7 @@ h6 > a > i {
 
 .songs-container {
     width: 80%;
-    margin: 5vh auto;
+    margin: 5vh auto 6vh auto;
 }
 
 td {
@@ -185,8 +185,4 @@ td > img {
     width: 30vh;
     min-width: 100px;
     max-width: 120px;
-}
-
-audio {
-    margin-left: 5%;
 }
