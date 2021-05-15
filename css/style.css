@@ -178,16 +178,17 @@ h6 > a > i {
 }
 
 td {
-    font-size: calc((1.5vw*1.5 + 1.5vh*2)/2);
+    font-size: calc((1.5vw + 1.5vh*2)/2);
 }
 
 td > img {
-    width: 30vh;
-    min-width: 100px;
+    width: 20vw;
+    min-width: 80px;
     max-width: 120px;
 }
 
 audio {
-    width: 20vw;
-    max-width: 600px;
+    width: 35vw;
+    max-width: 300px;
+    min-width: 100px;
 }
