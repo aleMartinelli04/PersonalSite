@@ -104,8 +104,11 @@ const SONGS = [
 let TABLE = "";
 
 SONGS.forEach(function (song_json) {
-    let new_row = '<tr><td><img src=' + song_json["image_url"] + ' class="rounded-3" alt="Song"></td>' +
-        '<td>' + song_json["name"] + '</td><td><audio controls src=' + song_json["preview_url"] + '></audio></td></tr>';
+    let new_row = '<tr>' +
+        '<td><img src=' + song_json["image_url"] + ' class="rounded-3" alt="Song"></td>' +
+        '<td>' + song_json["name"] + '</td>' +
+        '<td><audio controls src=' + song_json["preview_url"] + '></audio></td>' +
+        '</tr>';
 
     TABLE += new_row;
 });
