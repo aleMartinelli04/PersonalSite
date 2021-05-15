@@ -15,11 +15,6 @@ const SONGS = [
         "preview_url": "https://p.scdn.co/mp3-preview/f5aeb41b3ce0086c07e18d52f6428539674f2a6e?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Nice To Meet Ya</b> by Niall Horan",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b2733d13e91ce05c4e9b3e7201b7",
-        "preview_url": null
-    },
-    {
         "name": "<b>Il Giro Del Mondo</b> by Alfa, Yanomi",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
         "preview_url": "https://p.scdn.co/mp3-preview/59169adaf9aeaaa9111728afa4dc9cac659a4de8?cid=774b29d4f13844c495f206cafdad9c86"
@@ -30,49 +25,14 @@ const SONGS = [
         "preview_url": "https://p.scdn.co/mp3-preview/70fc8867041047ebceed6d449d702e0481e479d6?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Dove Sei?</b> by Alfa, Yanomi",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
-        "preview_url": "https://p.scdn.co/mp3-preview/df31bfaa841363de4e6086378496d789391f7eae?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
-        "name": "<b>Ferma A Guardare (feat. Pinguini Tattici Nucleari)</b> by Ernia, Pinguini Tattici Nucleari",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b2738167798048de8230c7079545",
-        "preview_url": null
-    },
-    {
         "name": "<b>7+3</b> by Ultimo",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273c369c9a434c0f1f475069c8f",
         "preview_url": "https://p.scdn.co/mp3-preview/b62ba048e8f6595a3ab9aec2a772e70ee046d984?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Il Giro Del Mondo</b> by Alfa, Yanomi",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273d8ae8de4c1af67c536311120",
-        "preview_url": "https://p.scdn.co/mp3-preview/59169adaf9aeaaa9111728afa4dc9cac659a4de8?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
-        "name": "<b>Fiamme negli occhi</b> by Coma_Cose",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273cb3dc833e19b5cd89adac215",
-        "preview_url": "https://p.scdn.co/mp3-preview/30a86c2237cd62e8ffe2dbf517fea9b75060cfd6?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
-        "name": "<b>ZITTI E BUONI</b> by Maneskin",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b2737a3ab8bd64a0952e452ec799",
-        "preview_url": "https://p.scdn.co/mp3-preview/55e26ad000107876dda10dad8a33481a229210ca?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
-        "name": "<b>Bella e rovinata</b> by Irama",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273207306c498e7c7a85e555ddc",
-        "preview_url": "https://p.scdn.co/mp3-preview/1870b36096d1002d6b2ec392b887bcb838c1a217?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
         "name": "<b>SuL Più BeLLo - prod. Yanomi</b> by Alfa, Yanomi",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273befd69d0ae0428ea16ed26bb",
         "preview_url": "https://p.scdn.co/mp3-preview/e88adf78144b8363ad5233857c33888663df3e72?cid=774b29d4f13844c495f206cafdad9c86"
-    },
-    {
-        "name": "<b>CHIAMAMI PER NOME</b> by Francesca Michielin, Fedez",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273d6b725434a6904c6de444c36",
-        "preview_url": "https://p.scdn.co/mp3-preview/28562c7ac3443b589aad479069fdc6774b06f1f4?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
         "name": "<b>These Days (feat. Jess Glynne, Macklemore & Dan Caplen)</b> by Rudimental, Jess Glynne, Macklemore, Dan Caplen",
@@ -85,26 +45,69 @@ const SONGS = [
         "preview_url": "https://p.scdn.co/mp3-preview/c1a20c494dad3340474d071e3168cbe85d27226b?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Drag Me Down</b> by One Direction",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273241e4fe75732c9c4b49b94c3",
-        "preview_url": "https://p.scdn.co/mp3-preview/09a6fcd9ca6aac808bf9ab042a55ca9ea63d66d0?cid=774b29d4f13844c495f206cafdad9c86"
+        "name": "<b>Kiwi</b> by Harry Styles",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736c619c39c853f8b1d67b7859",
+        "preview_url": "https://p.scdn.co/mp3-preview/1099b77c35ee3f5e08c976077b8ff8059a42f269?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Moscow Mule</b> by Benji & Fede, B3N, Federico Rossi",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b27308769f8cc3998e10e2ac362a",
-        "preview_url": "https://p.scdn.co/mp3-preview/3b2aef78054e1c5049e440a2798a7db53d8fa1d4?cid=774b29d4f13844c495f206cafdad9c86"
+        "name": "<b>Wanderlust!</b> by Alfa, Yanomi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
+        "preview_url": "https://p.scdn.co/mp3-preview/83123ed8131efc3dcdecb696f4d9cec9a7360483?cid=774b29d4f13844c495f206cafdad9c86"
     },
     {
-        "name": "<b>Come neve</b> by Giorgia, Marco Mengoni",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b27320ab0d69371ecc4f8d784997",
-        "preview_url": "https://p.scdn.co/mp3-preview/4d2b4bd60db0de7b57267265365d009bfed396a1?cid=774b29d4f13844c495f206cafdad9c86"
+        "name": "<b>Testa tra le nuvole, Pt. 0</b> by Alfa, Yanomi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
+        "preview_url": "https://p.scdn.co/mp3-preview/ca1af1126c86888fd24d9a739c2edcf2b3e83bca?cid=774b29d4f13844c495f206cafdad9c86",
+    },
+    {
+        "name": "<b>Testa tra le nuvole, Pt. 1</b> by Alfa, Yanomi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
+        "preview_url": "https://p.scdn.co/mp3-preview/5efbe7267f29ab7ea2398d45fa7f838f4faa360d?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>TesTa TrA Le NuVoLE, pT. 2 – prod. Yanomi</b> by Alfa, Yanomi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27367e455785af3296ad81afc1e",
+        "preview_url": "https://p.scdn.co/mp3-preview/3ae4eafa2c6f306fdba1df22b4d451c5cc9e295e?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>Tempo al Tempo</b> by Alfa, Yanomi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f400ead3625f8640f2d9a6f",
+        "preview_url": "https://p.scdn.co/mp3-preview/8aff4ec9eb1f892b5f741056f39e10566d775bd2?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>Ti dedico il silenzio</b> by Ultimo",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27353baaed66e2c4c4c45e8397a",
+        "preview_url": "https://p.scdn.co/mp3-preview/75a09ece5d880f46244feccaae2f14e20e8cb38e?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>Rondini Al Guinzaglio</b> by Ultimo",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273887308d96d2d0191771dd3aa",
+        "preview_url": "https://p.scdn.co/mp3-preview/37d1f3734a5df0241c0210f8d2e668a51340472f?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>I Tuoi Particolari</b> by Ultimo",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273887308d96d2d0191771dd3aa",
+        "preview_url": "https://p.scdn.co/mp3-preview/90e19b62ac3ea6a655b00277e46caad3fe14d44a?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>BeVo TuTTa La NoTTe (feat. Drast,Olly)</b> by Alfa, Drast, Olly",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273afbb465300e65fb1c06c0ba3",
+        "preview_url": "https://p.scdn.co/mp3-preview/af505d1a53290522e063b52f206819927dc82d98?cid=774b29d4f13844c495f206cafdad9c86"
+    },
+    {
+        "name": "<b>NoRd</b> by Alfa",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273afbb465300e65fb1c06c0ba3",
+        "preview_url": "https://p.scdn.co/mp3-preview/87c7a78b069eb25ebaf52b5c910c4e4344b0ee18?cid=774b29d4f13844c495f206cafdad9c86"
     }
 ]
 
-for (let i = 0; i < 20; i++) {
-    let song_json = SONGS[i];
+let TABLE = "";
 
-    document.getElementById("name_" + i.toString()).innerHTML = song_json["name"];
-    document.getElementById("img_" + i.toString()).src = song_json["image_url"];
-    document.getElementById("audio_" + i.toString()).src = song_json["preview_url"];
-}
+SONGS.forEach(function (song_json) {
+    let new_row = '<tr><td><img src=' + song_json["image_url"] + ' class="rounded-3" alt="Song"></td>' +
+        '<td>' + song_json["name"] + '</td><td><audio controls src=' + song_json["preview_url"] + '></audio></td></tr>';
+
+    TABLE += new_row;
+});
+
+document.getElementById("table").innerHTML = TABLE;
